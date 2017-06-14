@@ -1,0 +1,40 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax
+\defcounter {refsection}{0}\relax
+\select@language {english}
+\defcounter {refsection}{0}\relax
+\begin {tocconditional}{main}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{List of Figures}{5}{section*.2}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{List of Tables}{7}{section*.4}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Abbreviations}{9}{section*.6}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {1}Introduction}{11}{chapter.8}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {2}Related Work}{13}{chapter.9}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {3}Research Prototype}{15}{chapter.10}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {4}Empricial Studies}{17}{chapter.11}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {4.1}Discussion}{19}{section.15}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {4.2}Implications}{19}{section.16}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {4.3}Limitations}{19}{section.17}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {4.4}Future Work}{19}{section.18}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {5}Summary}{21}{chapter.19}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\nonumberline Table of appendices}{23}{appendix*.20}
+\defcounter {refsection}{0}\relax
+\end {tocconditional} \begin {tocconditional}{appendix}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {A}Some Algorithm}{24}{appendix.21}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {B}Some good headline}{25}{appendix.24}
+\defcounter {refsection}{0}\relax
+\end {tocconditional}
+

@@ -1,0 +1,84 @@
+\documentclass[twoside,12pt]{report}		
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum}
+\usepackage[english]{babel}
+\usepackage[babel]{csquotes}
+
+\usepackage[style=apa,style=authoryear]{biblatex}
+\usepackage[section]{placeins}
+\usepackage{floatflt}			
+\usepackage{wrapfig}	
+\usepackage{multirow}
+\usepackage{acronym}
+\usepackage{caption}
+\usepackage[list=on]{subcaption}
+
+\usepackage[nonumberlist, %no pagenumber
+acronym, 	  %create acronym page
+toc,		  %show in table of contents			
+nomain		  %shown as section in the toc
+]{glossaries}
+
+\usepackage{thesis-ukon}
+
+%\pagenumbering{arabic}
+
+\addbibresource{bibtex/thesis.bib}
+
+%enable Glossar-Commands	
+\makeglossaries			
+
+\Facility{UNIVERSITY}
+\Address{ADDRESS}
+\Department{YOUR DEPARTMENT}								
+\Name{FIRSTNAME LASTNAME}
+\Title{Thesis Title}
+\Section{}
+\Faculty{Computer and Information Science}
+\Degree{Bachelor/Master of Science (BSc/MSc)}	
+\Reviewers(Prof1, Prof2)
+\Type{Thesis}
+\Thesis % do some required stuff			
+
+																					
+\begin{document}		
+	\let\cite\parencite
+	\pagenumbering{arabic}
+	\setcounter{page}{1}	
+	% Titelseite					
+	\input{structure/TitlePage}
+	\input{structure/Abstract}	
+	\clearpage
+	\input{structure/TableOfContents} % table of content
+	\input{structure/Figures} % list of figures
+	\input{structure/Tables} % list of tables
+	\input{structure/Abbreviations} % list of tables	
+	\Chapters % Read all Chapters automatically 	
+	\input{structure/Sources} % insert all \textbf{}
+	\input{structure/Appendix}
+	%\input{structure/disclaimer} % add a disclaimer/declaration
+\end{document}			
+
+		
+% MAKES SQUARE BRACKTS AROUND CITATION!
+%\makeatletter
+%\newrobustcmd*{\parentexttrack}[1]{%
+%	\begingroup
+%	\blx@blxinit
+%	\blx@setsfcodes
+%	\blx@bibopenparen#1\blx@bibcloseparen
+%	\endgroup}	
+%\AtEveryCite{%	
+%	\let\parentext=\parentexttrack%
+%	\let\bibopenparen=\bibopenbracket%
+%	\let\bibcloseparen=\bibclosebracket}
+%\renewbibmacro*{cite}{%
+%	\iffieldundef{shorthand}\part{\part{title}}
+%	{\ifthenelse{\ifnameundef{labelname}\OR\iffieldundef{labelyear}}
+%		{\usebibmacro{cite:label}%			
+%			\setunit{\addspace}}
+%		{\printnames{labelname}%
+%			\setunit{\nameyeardelim}}%
+%		\printtext[parens]{\usebibmacro{cite:labelyear+extrayear}}}% ADDED
+%	{\usebibmacro{cite:shorthand}}}
+%\makeatother
